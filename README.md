@@ -1,2 +1,5 @@
 # Projeto_Final-EmbarcaTech
  Sistema de Monitoramento de Irrigação IOT com RB Pi Pico W e ESP
+ Aqui estão inclusos todos os arquivos necessários para rodar o projeto, está incluso também um script em python, para realizar o teste das funções de servidor do pico, basta editar o script para rodar o IP do Pico, que é informado quando ele se conecta em uma rede WIFI, caso não consiga rodar o script, tambem é possivel fazer a atualização manual de cada um dos pontos da matriz, acessando pelo browser o IP/Cordenada_x/Cordenada_y/Estado(0-5), para ver as atualizações na matriz de leds e no display.
+ se acessar apenas o IP do Pico pelo browser, verá o estado dos irrigadores, podendo acionar-los diretamente pela pagina, sendo possivel ver o led que representa o estado do irrigador, mudando em tempo real, caso o cursor esteja sobre o ponto em que se está sendo alterado
+ Para conectar no Wifi, precisa colocar a SSID da Rede e a Senha, no primeiro par de #defines, que tem no codigo principal, (projeto.c).
